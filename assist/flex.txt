@@ -1,0 +1,21 @@
+flex-basis
+@media(max-width:767px){
+    .element{
+        flex-basis: 100%;
+    }
+    
+}
+@media(min-width:768px){
+    .element{
+        flex-basis: 50%;
+    }
+    
+}
+@media(min-width:1199px){
+    .element{
+        flex-basis: 25%;
+    }
+    
+}
+
+flex-wrap

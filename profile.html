@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <link rel="stylesheet" href="CSS/framework.css" />
+    <link rel="stylesheet" href="CSS/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fonts -->
+    <title>Profile</title>
+  </head>
+  <body>
+    <section class="page">
+      <div class="sidebar">
+        <h3>Elsline</h3>
+        <h3 class="mob">E</h3>
+        <ul>
+          <li>
+            <a href="index.html">
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="settings.html">
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+          <li>
+            <a class="active" href="profile.html">
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="projects.html">
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="courses.html">
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span>Courses</span>
+            </a>
+          </li>
+          <li>
+            <a href="friends.html">
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>Friends</span>
+            </a>
+          </li>
+          <li>
+            <a href="files.html">
+              <i class="fa-regular fa-file fa-fw"></i>
+              <span>Files</span>
+            </a>
+          </li>
+          <li>
+            <a href="plans.html">
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span>Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="content w-full">
+        <header>
+          <div class="search p-relative">
+            <input type="search" name="search" placeholder="Type a Keyword " />
+          </div>
+          <div class="profile center-flex">
+            <span class="notification p-relative">
+              <i class="cur-p fa-regular fa-bell fa-lg"></i>
+            </span>
+            <img class="cur-p" src="imgs/avatar.png" alt="" />
+          </div>
+        </header>
+        <h1 class="p-relative ml-15 w-fit mb-40">Profile</h1>
+        <div class="profile-page m-20 d-flex flex-d-c">
+          <div
+            class="profile-view pr-20 pl-20 bg-white rad-10 shadow-ddd center-flex flex-dcm"
+          >
+            <div class="prof-v txt-c m-20">
+              <img class="w-120" src="imgs/avatar.png" alt="" />
+              <span class="p-relative d-block fw-bold pt-15 fs-18"
+                >Ahmed Elsline</span
+              >
+              <span class="d-block c-grey pt-15 fs-15">Level 20</span>
+              <div class="rating mt-40 mb-15">
+                <i class="fa-solid fa-star c-orange fs-13"></i>
+                <i class="fa-solid fa-star c-orange fs-13"></i>
+                <i class="fa-solid fa-star c-orange fs-13"></i>
+                <i class="fa-solid fa-star c-orange fs-13"></i>
+                <i class="fa-solid fa-star c-orange fs-13"></i>
+              </div>
+              <span class="d-block c-grey fs-13">550 Rating</span>
+            </div>
+            <div class="general-info flex-1 fs-14 ml-30 border-l-eee mr-300">
+              <div class="info pl-20 pb-20 pr-20 pt-20">
+                <span>General Information</span>
+                <div class="between-flex mt-10">
+                  <p class="c-grey">
+                    Full Name: <span class="c-black">Ahmed Elsline</span>
+                  </p>
+                  <p class="c-grey">
+                    Gender: <span class="c-black">Male</span>
+                  </p>
+                  <p class="c-grey">
+                    Country: <span class="c-black">Egypt</span>
+                  </p>
+                  <label>
+                    <input class="toggle-checkbox" type="checkbox" checked />
+                    <div class="toggle-switch"></div>
+                  </label>
+                </div>
+              </div>
+              <div class="info p-20 border-b-eee border-t-eee">
+                <span>Personal Information</span>
+                <div class="between-flex mt-10">
+                  <p class="c-grey">
+                    Email: <span class="c-black">am2505@gmail.com</span>
+                  </p>
+                  <p class="c-grey">
+                    Phone: <span class="c-black">01001077694</span>
+                  </p>
+                  <p class="c-grey">
+                    Date Of Birth: <span class="c-black"> 28/1/2002</span>
+                  </p>
+                  <label>
+                    <input class="toggle-checkbox" type="checkbox" checked />
+                    <div class="toggle-switch"></div>
+                  </label>
+                </div>
+              </div>
+              <div class="info p-20 border-b-eee border-t-eee">
+                <span>Job Information</span>
+                <div class="between-flex mt-10">
+                  <p class="c-grey">
+                    Title: <span class="c-black">Full Stack Developer</span>
+                  </p>
+                  <p class="c-grey">
+                    Programming Language: <span class="c-black">Python</span>
+                  </p>
+                  <p class="c-grey">
+                    Years Of Experience: <span class="c-black"> 15+</span>
+                  </p>
+                  <label>
+                    <input class="toggle-checkbox" type="checkbox" checked />
+                    <div class="toggle-switch"></div>
+                  </label>
+                </div>
+              </div>
+              <div class="info p-20">
+                <span>Billing Information</span>
+                <div class="between-flex mt-10">
+                  <p class="c-grey">
+                    Payment Method: <span class="c-black"> Paypal</span>
+                  </p>
+                  <p class="c-grey">
+                    Email: <span class="c-black">email@website.com</span>
+                  </p>
+                  <p class="c-grey">
+                    Subscription: <span class="c-black">Monthly</span>
+                  </p>
+                  <label>
+                    <input class="toggle-checkbox" type="checkbox" checked />
+                    <div class="toggle-switch"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills&activities d-flex gap-20 mt-20">
+            <div class="skills p-20 bg-white rad-10 shadow-ddd flex-1">
+              <h2>My Skills</h2>
+              <p class="c-grey mt-10 mb-20 fs-15">Complete Skills List</p>
+              <div class="pt-20 pb-20 border-b-eee">
+                <span class="btn-shape bg-eee mr-5"> HTML </span>
+                <span class="btn-shape bg-eee mr-5"> Pugjs </span>
+                <span class="btn-shape bg-eee mr-5"> HAML </span>
+              </div>
+              <div class="pt-20 pb-20 border-b-eee">
+                <span class="btn-shape bg-eee mr-5"> CSS </span>
+                <span class="btn-shape bg-eee mr-5"> SASS </span>
+                <span class="btn-shape bg-eee mr-5"> Stylus </span>
+              </div>
+              <div class="pt-20 pb-20 border-b-eee">
+                <span class="btn-shape bg-eee mr-5"> JavaScript </span>
+                <span class="btn-shape bg-eee mr-5"> TypeScript </span>
+              </div>
+              <div class="pt-20 pb-20 border-b-eee">
+                <span class="btn-shape bg-eee mr-5"> Vuejs </span>
+                <span class="btn-shape bg-eee mr-5"> Reactjs </span>
+              </div>
+              <div class="pt-20 pb-20 border-b-eee">
+                <span class="btn-shape bg-eee mr-5"> Jest </span>
+                <span class="btn-shape bg-eee mr-5"> Jasmine </span>
+              </div>
+              <div class="pt-20 pb-20 border-b-eee">
+                <span class="btn-shape bg-eee mr-5"> PHP </span>
+                <span class="btn-shape bg-eee mr-5"> Laravel </span>
+              </div>
+              <div class="pt-20 pb-20">
+                <span class="btn-shape bg-eee mr-5"> Python </span>
+                <span class="btn-shape bg-eee mr-5"> Django </span>
+              </div>
+            </div>
+            <div class="activities p-20 bg-white rad-10 shadow-ddd flex-2">
+              <h2>Latest Activities</h2>
+              <p class="c-grey mt-10 mb-20 fs-15">
+                Latest Activities Done By The User
+              </p>
+              <div class="activity between-flex mb-20  pb-20 border-b-eee">
+                <div class="d-flex align-center">
+                  <div>
+                    <img class="w-60 mr-20" src="imgs/activity-01.png" alt="" />
+                  </div>
+                  <div class="">
+                    <span>Store</span>
+                    <p class="d-block c-grey mt-10 ">Bought The Mastering Python Course</p>
+                  </div>
+                </div>
+                <div class="">
+                  <span class="d-block txt-e">13:45</span>
+                  <p class="d-block c-grey mt-10 ">Yesterday</p>
+                </div>
+              </div>
+              <div class="activity between-flex mb-20  pb-20 border-b-eee">
+                <div class="d-flex align-center">
+                  <div>
+                    <img class="w-60 mr-20" src="imgs/activity-02.png" alt="" />
+                  </div>
+                  <div class="">
+                    <span>Academy</span>
+                    <p class="d-block c-grey mt-10 ">Got The PHP Certificate
+                    </p>
+                  </div>
+                </div>
+                <div class="">
+                  <span class="d-block txt-e">19:05</span>
+                  <p class="d-block c-grey mt-10 ">Yesterday</p>
+                </div>
+              </div>
+              <div class="activity between-flex mb-20  pb-20 border-b-eee">
+                <div class="d-flex align-center">
+                  <div>
+                    <img class="w-60 mr-20" src="imgs/activity-03.png" alt="" />
+                  </div>
+                  <div class="">
+                    <span>Badges</span>
+                    <p class="d-block c-grey mt-10 ">Unlocked The 10 Skills Badge
+                    </p>
+                  </div>
+                </div>
+                <div class="">
+                  <span class="d-block txt-e">21:28</span>
+                  <p class="d-block c-grey mt-10 ">Yesterday</p>
+                </div>
+              </div>
+              <div class="activity between-flex  ">
+                <div class="d-flex align-center">
+                  <div>
+                    <img class="w-60 mr-20" src="imgs/activity-01.png" alt="" />
+                  </div>
+                  <div class="">
+                    <span>Store</span>
+                    <p class="d-block c-grey mt-10 ">Bought The Mastering Python Course</p>
+                  </div>
+                </div>
+                <div class="">
+                  <span class="d-block txt-e">18:10</span>
+                  <p class="d-block c-grey mt-10 ">Yesterday</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
