@@ -1167,6 +1167,12 @@ input{
     -o-transform: translateY(-10px);
     scale: 1.2;
 }
+@media (max-width:767px){
+    .profile-page .activity {
+        font-size: 13px;
+    }
+    
+}
 
 /* End Profile Page */
 
